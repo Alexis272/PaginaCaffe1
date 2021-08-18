@@ -3,8 +3,10 @@ const imagenLight = document.querySelector('.agregar-imagen');
 const contenedorLight = document.querySelector('.imagen-light')
 const closeLight = document.querySelector('.close')
 
+console.log("Before event listener", imagenes)
 
-imagenes.forEach(imagen => {
+Array.from(document.querySelectorAll('.img-galeria')).forEach(imagen => {
+  console.log(imagen)
     imagen.addEventListener('click',()=>{
         aparecerImagen(imagen.getAttribute('src'));
     })
@@ -25,5 +27,5 @@ const aparecerImagen = (imagen)=>{
 
     imagenLight.classList.toggle('showImage')  //aqui hacemos la accion cuando se selecciona una imagen
     hamburguer.style.opacity = '0';
-    
+
 }

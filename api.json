@@ -4,7 +4,7 @@
     "precio": 20,
     "id": 1,
     "title": "Crepas",
-   "thumbnailUrl": "https://picsum.photos/id/10/600"
+   "thumbnailUrl": "https://raw.githubusercontent.com/Alexis272/PaginaCaffe1/main/img/CaffeBrazo.jpg"
   },
   {
     "precio": 22 ,
@@ -117,7 +117,7 @@
     "precio": 40,
     "id": 18,
     "title": "Bebidas Preparadas",
-    "thumbnailUrl": "https://picsum.photos/id/20/600"
+    "thumbnailUrl": "https://picsum.photos/id/10/600"
 
   }
 
