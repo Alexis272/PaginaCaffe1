@@ -194,7 +194,7 @@ object-fit: cover;
   color: aliceblue;
   text-shadow: 1px 1px 1px black;
   font-size: 2.5em;
-  text.transform: uppercase;
+  text-transform: uppercase;
 }
 .box:hover .hover{
   width: 100%;
